@@ -1,13 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  font-family: 'Acme', sans-serif;
+  font-size:25px;
+  color:#fff;
+}
+.brand-nav{
+  font-size:55px;
+}
+.le{
+  margin-right: 200px !important;
+}
+.nav-link{
+  color:#fff !important;
+}
+.main-section{
+  background-image: url(./img/steve-jobs1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:120vh;
+}
+.charlos{
+  font-size:80px;
+  font-weight: 600;
+}
+.main{
+  display: flex;
+  color:#fff;
+  height:100vh;
+}
+.main-left{
+  width:60%;  
+  padding-left: 12%;
+  padding-top: 12%;
+
+}
+.line{
+  width: 10%;
+  height:5px;
+  background-color: gold;
+}
+.main-icons{
+  width:20%;
+  height: 20px;
+}
+.icons{
+  margin-top: 50px;
+  font-size:25px;
+  margin-right: 10px;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+}
+.main-right{
+  width:40%;
+  padding-top: 12%;
+
+}
+@media only screen and (max-width:600px){
+  .main{
+    display: block;
+  }
+  .charlos{
+    font-size:50px;
+    font-weight: 600;
+  }
+  .main-left{
+    width:100%;
+  }
+  .main-right{
+    margin-top: 100px;
+    padding:20px;
+    width:100%;
+  }
+  .le{
+    display: none !important;
+    margin-right: 200px !important;
+  }
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+/* <!------------------------------ Sscond page -----------------------> */
+
+
+.second-bg{
+  background-color: rgb(24, 26, 39);
 }
+.second{
+  color:#fff;
+  display: flex;
+  align-items: center;  
+  height:100vh;
+}
+.second-left{
+  width:40%;
+}
+.second-right{
+  padding-left:100px;
+  width:40%;
+}
+.card-img{
+  width:60% !important;
+  height:350px;
+  margin: 80px 0;
+}
+.number-14{
+  font-size: 30px;
+  color:orange;
+}
+.number-187{
+  font-size:30px;
+  color:orange;
+}
+.number1{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.dual{
+  display: flex;
+
+}
+.logo-left{
+  width:50%;
+}
+.logo-right{
+  width:50%;
+}
+
+
+@media screen and (max-width:600px) {
+
+  .second{
+  margin-top: 0px;
+  display: block;
+  height:100vh;
+  padding:50px;
+}
+h2{
+  font-size:18px !important;
+}
+.second-left{
+  width:100%;
+}
+.second-right{
+  padding-left:1px;
+  width:100%;
+}
+.fe{
+  position: relative;
+}
+.ku{
+  margin-top: 80px !important;
+}
+
+.pos{
+  margin-top: 20px;
+  top:-40%;
+  position: absolute;
+}
+.dual{
+  display: block;
+
+}
+.logo-left{
+  width:100%;
+}
+.logo-right{
+  width:100%;
+}
+.card-img{
+  width:90% !important;
+  height:350px;
+  margin: 20px 0;
+}
+
+}
+
+
+
+
+/* Logos-------------------------------------------------------------------- */
+
+.logo-bg{
+  background-color: rgb(35, 39, 56);
+  color:#fff;
+}
+.logos{
+  font-size: 30px;
+}
+.log1{
+  font-size: 50px;
+
+}
+.fe{
+  position: relative;
+}
+
+.pos{
+
+  top:-40%;
+  position: absolute;
+}
+                   /* infomations */
+
+.info-bg{
+  padding-top:100px;
+  background-color: rgb(24, 26, 39);
+  color: #fff;
+}
+.info-container{
+  display: flex;
+}
+.fw{
+  font-size:20px;
+}
+.info-left{
+  width:40%;
+}
+.info-right{
+  width:60%;
+}
+.info-right-el{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+
+.info-box{
+  display: flex;
+  align-items: center;
+
+}
+.info-box-l{
+  width: 46%;
+  padding-left:15%;
+}
+.info-box-r{
+  width: 64%;
+}
+.dev-img{
+  width:70%;
+  height:250px;
+  background:#ccc;
+}
+
+
+
+
+.button-box{
+  display: flex;
+  justify-content:flex-start;
+}
+.pag-1{
+  background-color: orange !important;
+}
+.pag-line{
+  margin-top: 25px;
+  margin-right: 10px;
+   width:8%;
+   height:5px;
+   background-color: #333;
+}
+
+
+
+
+
+/* <-------------------Contact---------------------->
+ */
+.con-bg{
+  background-color: rgb(24, 26, 39);
+  color: #fff;
+}
+.dal{
+  display: flex !important;
+}
+ .con-left{
+   width:40%;
+ }
+ .con-right{
+   width:60%;
+ }
+ .go{
+   margin-top: 1000px;
+   text-decoration: none;
+ }
+
+ .brand{
+   font-size: 50px;
+ }
+
+ .con-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ @media screen and (max-width:600px){
+  .info-container{
+    display: block;
+  }
+  .info-left{
+    width:100%;
+    padding:20px;
+  }
+  .info-right{
+    padding:20px;
+    width: 100%;
+  }
+  .info-box{
+    display: block;
+    align-items: center;
+  
+  }
+  .info-box-l{
+    width: 90%;
+    padding-left:15%;
+  }
+  .info-box-r{
+    width: 90%;
+    
+  }
+  .button-box{
+    text-align: center !important;
+  }
+  .dev-img{
+    width:80%;
+    height:250px;
+    background:#ccc;
+  }
+  .con-left{
+    width:100%;
+  }
+  .dal{
+    display: block !important;
+  }
+  .con-right{
+    width:100%;
+  }
+   
+ }
