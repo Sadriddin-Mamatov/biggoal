@@ -48,7 +48,7 @@ const Logos = () => {
           </div>
         </div>
 
-        <div className="logos">
+        <div className="logos mt-5">
           <div className="row py-5 m-5">
             <div className="col-md-3 col-sm-6">
               {" "}
