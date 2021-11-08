@@ -197,25 +197,29 @@ h2{
 .logo-bg{
   background-color: rgb(35, 39, 56);
   color:#fff;
-  position: relative;
+}
+.logo-part{ 
+  /* background-color: #fff; */
+  background-image: linear-gradient(to bottom,rgb(24, 26, 39) 5%,rgb(35, 39, 56) 100% );
+  background-size: calc(100%) calc(100%);
 }
 .logos{
   font-size: 30px;
-  /* position: absolute; */
+  /* position: relative; */
 }
 .log1{
   font-size: 50px;
 
 }
-.fe{
+/* .fe{
   position: relative;
-}
-
+} */
+/* 
 .pos{
 
   top:-40%;
   position: absolute;
-}
+} */
 .card-logo{
   font-size:30px;
   margin-right: 15px;

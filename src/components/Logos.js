@@ -11,6 +11,7 @@ import CardImg from "../img/card.jpg";
 const Logos = () => {
   return (
     <div className="logo-bg">
+      <div className="logo-part">
       <div className="container ">
         <div className="row ">
           <div className="col-md-4 fe">
@@ -110,6 +111,8 @@ const Logos = () => {
           </div>
         </div>
       </div>
+      </div>
+     
     </div>
   );
 };
