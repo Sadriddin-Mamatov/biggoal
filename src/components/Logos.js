@@ -17,29 +17,29 @@ const Logos = () => {
             <div className="card pos pt-5 p-3 text-light bg-warning ">
               <div className="card-body">
                 <div className="card-title  d-flex">
-                  <FiSettings />
+                  <FiSettings className="card-logo"/>
                   <h1>Product Designer</h1>
                 </div>
                 <div className="card-text">Good result</div>
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 fe ku">
             <div className="card pos pt-5 p-3 text-light bg-secondary">
               <div className="card-body">
                 <div className="card-title d-flex">
-                  <FiPenTool />
+                  <FiPenTool className="card-logo"/>
                   <h1>Product Designer</h1>
                 </div>
                 <div className="card-text">Good result</div>
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 fe ku">
             <div className="card pos pt-5 p-3 text-light bg-secondary">
               <div className="card-body">
                 <div className="card-title  d-flex">
-                  <BsDisplay />
+                  <BsDisplay className="card-logo"/>
                   <h1>Product Designer</h1>
                 </div>
                 <div className="card-text">Good result</div>
