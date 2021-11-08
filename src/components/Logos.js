@@ -11,8 +11,8 @@ import CardImg from "../img/card.jpg";
 const Logos = () => {
   return (
     <div className="logo-bg">
-      <div className="container">
-        <div className="row fe">
+      <div className="container fe">
+        <div className="row ">
           <div className="col-md-4  ku">
             <div className="card pos pt-5 p-3 text-light bg-warning ">
               <div className="card-body">
