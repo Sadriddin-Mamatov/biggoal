@@ -11,9 +11,9 @@ import CardImg from "../img/card.jpg";
 const Logos = () => {
   return (
     <div className="logo-bg">
-      <div className="container fe">
+      <div className="container ">
         <div className="row ">
-          <div className="col-md-4 ">
+          <div className="col-md-4 fe">
             <div className="card pos pt-5 p-3  ku text-light bg-warning ">
               <div className="card-body">
                 <div className="card-title  d-flex">
@@ -24,7 +24,7 @@ const Logos = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 ">
+          <div className="col-md-4 fe">
             <div className="card pos pt-5 p-3  ku text-light bg-secondary">
               <div className="card-body">
                 <div className="card-title d-flex">
@@ -35,7 +35,7 @@ const Logos = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 ">
+          <div className="col-md-4 fe">
             <div className="card pos pt-5 p-3  ku text-light bg-secondary">
               <div className="card-body">
                 <div className="card-title  d-flex">

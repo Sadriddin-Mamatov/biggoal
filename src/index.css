@@ -158,18 +158,18 @@ h2{
   padding-left:1px;
   width:100%;
 }
-.fe{
-  position: relative;
+/* .fe{
+  position: relative !important;
 }
-.ku{
+/* .ku{
   margin-top: 80px !important;
-}
+} */
 
-.pos{
+/* .pos{
   margin-top: 20px;
-  top:-40%;
-  position: absolute;
-}
+  top:-80% !important;
+  position: absolute !important;
+} */ 
 
 .dual{
   display: block;
@@ -200,7 +200,7 @@ h2{
 }
 .logos{
   font-size: 30px;
-  position: relative;
+  position: absolute;
 }
 .log1{
   font-size: 50px;
