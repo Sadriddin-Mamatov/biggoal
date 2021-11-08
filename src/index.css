@@ -197,6 +197,7 @@ h2{
 .logo-bg{
   background-color: rgb(35, 39, 56);
   color:#fff;
+  position: relative;
 }
 .logos{
   font-size: 30px;

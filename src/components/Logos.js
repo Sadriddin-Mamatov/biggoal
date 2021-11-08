@@ -21,7 +21,7 @@ const Logos = () => {
                   <h1>Product Designer</h1>
                 </div>
                 <div className="card-text">Good result</div>
-                ssfffgfdgffdgfggdg
+                
               </div>
             </div>
           </div>
