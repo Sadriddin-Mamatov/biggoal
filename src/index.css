@@ -200,7 +200,7 @@ h2{
 }
 .logos{
   font-size: 30px;
-  position: absolute;
+  /* position: absolute; */
 }
 .log1{
   font-size: 50px;
